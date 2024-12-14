@@ -2,15 +2,30 @@
     width: 20px;
 }
 .regBtn{
-    background-color: #4CAF4F!important;
+    background-color: #39DB4A!important;
     border-radius: 24px !important;
+    border: none !important;
 }
-.nav-item :hover{
-    color: #4CAF4F !important;
+.nav-item :hover, .thrice-btn :hover{
+    color: #39DB4A !important;
 }
 .F{
-    background-color: #4CAF4F;
+    background-color: #39DB4A;
     color: white;
     border-radius: 12px;
 }
-
+.act a{
+    color: #39DB4A;
+}
+@media screen and (max-width:426px){
+    .thrice-btn{
+        display: flex;
+        justify-content:space-around;
+    }
+}
+@media screen and (min-width:426px) and (max-width:768px){
+    .thrice-btn{
+        display: flex;
+        justify-content:space-evenly;
+    }
+}
