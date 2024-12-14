@@ -1,0 +1,16 @@
+.logo{
+    width: 20px;
+}
+.regBtn{
+    background-color: #4CAF4F!important;
+    border-radius: 24px !important;
+}
+.nav-item :hover{
+    color: #4CAF4F !important;
+}
+.F{
+    background-color: #4CAF4F;
+    color: white;
+    border-radius: 12px;
+}
+
