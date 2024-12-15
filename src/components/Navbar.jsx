@@ -41,7 +41,7 @@ const Navbar = () => {
                         
                         <button type="button" class="btn btn-success regBtn px-3">
                             <img src={contactLogo} alt="contact Logo" className='w-25' />
-                            <span className='ms-2'>Contact</span></button>
+                            <span className='ms-2 contact'>Contact</span></button>
                             </div>
                     </div>
                 </div>
