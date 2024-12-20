@@ -230,7 +230,10 @@
     right: 0;
     width: 0;
 }
-
+.card-text{
+    color: grey;
+    font-size: 14px;
+}
 
 /* order button end */
 @media screen and (max-width:426px) {

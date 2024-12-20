@@ -22,7 +22,7 @@ const PopularCategories = () => {
 
                                 <h5 class="card-title">Main Dish</h5>
 
-                                <p class="card-text">(86 dishes)</p>
+                                <p class="card-text">86 dishes</p>
 
                                 {/* button */}
 
@@ -50,7 +50,7 @@ const PopularCategories = () => {
 
                                 <h5 class="card-title">Break Fast</h5>
 
-                                <p class="card-text">(12 break fast)</p>
+                                <p class="card-text">12 break fast</p>
 
                                 {/* button */}
 
@@ -78,7 +78,7 @@ const PopularCategories = () => {
 
                                 <h5 class="card-title">Dessert</h5>
 
-                                <p class="card-text">(48 dessert)</p>
+                                <p class="card-text">48 dessert</p>
 
                                 {/* button */}
 
