@@ -16,7 +16,7 @@ const PopularCategories = () => {
                     <div className="col-lg-3 col-md-6 col-sm-12 my-3">
                         <div class="card p-3" style={{ width: '18rem' }}>
                             <div className="img mx-auto">
-                                <img class="card-img-top" src={foodItem1} alt="Burger image" width={120} className='mx-auto img-fluid' style={{ marginTop: '15px' }} />
+                                <img class="card-img-top" src={foodItem1} alt="Burger" width={120} className='mx-auto img-fluid' style={{ marginTop: '15px' }} />
                             </div>
                             <div class="card-body">
 
@@ -44,7 +44,7 @@ const PopularCategories = () => {
                     <div className="col-lg-3 col-md-6 col-sm-12 my-3">
                         <div class="card p-3" style={{ width: '18rem' }}>
                             <div className="img mx-auto">
-                                <img class="card-img-top" src={foodItem2} alt="Burger image" width={85} className='mx-auto img-fluid' style={{ marginTop: '15px' }} />
+                                <img class="card-img-top" src={foodItem2} alt="Burger" width={85} className='mx-auto img-fluid' style={{ marginTop: '15px' }} />
                             </div>
                             <div class="card-body">
 
@@ -72,7 +72,7 @@ const PopularCategories = () => {
                     <div className="col-lg-3 col-md-6 col-sm-12 my-3">
                         <div class="card p-3" style={{ width: '18rem' }}>
                             <div className="img mx-auto">
-                                <img class="card-img-top" src={foodItem3} alt="Burger image" width={85} className='mx-auto img-fluid' style={{ marginTop: '15px' }} />
+                                <img class="card-img-top" src={foodItem3} alt="Burger" width={85} className='mx-auto img-fluid' style={{ marginTop: '15px' }} />
                             </div>
                             <div class="card-body">
 
