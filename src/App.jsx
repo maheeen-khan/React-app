@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import PopularCategories from './components/PopularCategories';
 import Varieties from './components/Varieties.tsx';
 import Contact from './components/Contact.tsx';
+import ReviewSection from './components/ReviewSection.tsx';
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
       <Home />
       <PopularCategories />
       <Varieties />
-      <Contact />
-
+      {/* <Contact /> */}
+      <ReviewSection/>
       
     </>
   );
