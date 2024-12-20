@@ -1,34 +1,131 @@
-.logo{
+.logo {
     width: 20px;
 }
-.regBtn{
-    background-color: #39DB4A!important;
+
+.regBtn {
+    background-color: #39DB4A !important;
     border-radius: 24px !important;
     border: none !important;
 }
 
-.nav-item :hover, .thrice-btn :hover{
+.nav-item :hover,
+.thrice-btn :hover {
     color: #39DB4A !important;
 }
-.F{
+
+.F {
     background-color: #39DB4A;
     color: white;
     border-radius: 12px;
 }
-.act a, .green{
+
+.act a,
+.green {
     color: #39DB4A;
 }
-.main-heading{
+
+.main-heading {
     font-weight: bold;
 }
-.main-para{
+
+.main-para {
     color: #4A4A4A;
 }
-.girl{
+
+.girl {
     border-radius: 40%;
 }
+
+.sec2-para {
+    color: orangered;
+}
+
+.card {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 25px !important;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+    background-color: #C1F1C6;
+    border-radius: 50%;
+}
+/* From Uiverse.io by satyamchaudharydev */
+.button {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding-block: 0.5rem;
+    padding-inline: 1.25rem;
+    background-color: #39DB4A;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    gap: 10px;
+    font-weight: bold;
+    border: 3px solid #ffffff4d;
+    outline: none;
+    overflow: hidden;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    border-color: #fff9;
+}
+
+.button:hover .icon {
+    transform: translate(4px);
+}
+
+.button:hover::before {
+    animation: shine 1.5s ease-out infinite;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(120deg,
+            rgba(255, 255, 255, 0) 30%,
+            rgba(255, 255, 255, 0.8),
+            rgba(255, 255, 255, 0) 70%);
+    top: 0;
+    left: -100px;
+    opacity: 0.6;
+}
+
+@keyframes shine {
+    0% {
+        left: -100px;
+    }
+
+    60% {
+        left: 100%;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+
 /* Order Button */
-/* From Uiverse.io by cssbuttons-io */ 
+/* From Uiverse.io by cssbuttons-io */
 .fancy {
     background-color: transparent;
     border: 2px solid #39DB4A;
@@ -51,9 +148,9 @@
     transition: all 0.3s ease-in-out;
     user-select: none;
     font-size: 13px;
-   }
-   
-   .fancy::before {
+}
+
+.fancy::before {
     content: " ";
     width: 1.5625rem;
     height: 2px;
@@ -64,9 +161,9 @@
     transform: translateY(-50%);
     transform-origin: center;
     transition: background 0.3s linear, width 0.3s linear;
-   }
-   
-   .fancy .text {
+}
+
+.fancy .text {
     font-size: 1.125em;
     line-height: 1.33333em;
     padding-left: 2em;
@@ -76,9 +173,9 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #39DB4A;
-   }
-   
-   .fancy .top-key {
+}
+
+.fancy .top-key {
     height: 2px;
     width: 1.5625rem;
     top: -2px;
@@ -86,9 +183,9 @@
     position: absolute;
     background: #e8e8e8;
     transition: width 0.5s ease-out, left 0.3s ease-out;
-   }
-   
-   .fancy .bottom-key-1 {
+}
+
+.fancy .bottom-key-1 {
     height: 2px;
     width: 1.5625rem;
     right: 1.875rem;
@@ -96,9 +193,9 @@
     position: absolute;
     background: #e8e8e8;
     transition: width 0.5s ease-out, right 0.3s ease-out;
-   }
-   
-   .fancy .bottom-key-2 {
+}
+
+.fancy .bottom-key-2 {
     height: 2px;
     width: 0.625rem;
     right: 0.625rem;
@@ -106,45 +203,52 @@
     position: absolute;
     background: #e8e8e8;
     transition: width 0.5s ease-out, right 0.3s ease-out;
-   }
-   
-   .fancy:hover {
+}
+
+.fancy:hover {
     color: white;
     background: #39DB4A;
-   }
-   
-   .fancy:hover::before {
+}
+
+.fancy:hover::before {
     width: 0.9375rem;
     background: white;
-   }
-   
-   .fancy:hover .text {
+}
+
+.fancy:hover .text {
     color: white;
     padding-left: 1.5em;
-   }
-   
-   .fancy:hover .top-key {
+}
+
+.fancy:hover .top-key {
     left: -2px;
     width: 0px;
-   }
-   
-   .fancy:hover .bottom-key-1,
-    .fancy:hover .bottom-key-2 {
+}
+
+.fancy:hover .bottom-key-1,
+.fancy:hover .bottom-key-2 {
     right: 0;
     width: 0;
-   }
+}
 
 
-   /* order button end */
-@media screen and (max-width:426px){
-    .thrice-btn{
+/* order button end */
+@media screen and (max-width:426px) {
+    .thrice-btn {
         display: flex;
-        justify-content:space-around;
+        justify-content: space-around;
+    }
+    .part1{
+        margin-top: 50px !important;
+    }
+    .first-row{
+        text-align: center !important;
     }
 }
-@media screen and (min-width:426px) and (max-width:768px){
-    .thrice-btn{
+
+@media screen and (min-width:426px) and (max-width:768px) {
+    .thrice-btn {
         display: flex;
-        justify-content:space-evenly;
+        justify-content: space-evenly;
     }
 }

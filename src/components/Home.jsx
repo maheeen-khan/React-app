@@ -7,12 +7,12 @@ const Home = () => {
     return (
         <>
             <div className="container">
-                <div className="row mt-5">
-                    <div className="col-lg-7 col-md-6 col-sm-12  order-lg-2 girl">
+                <div className="row mt-5 first-row">
+                    <div className="col-lg-5 col-md-6 col-sm-12  order-lg-2 girl mx-auto">
                         <img src={girl} alt="girl" className='img-fluid' />
                     </div>
 
-                    <div className="col-lg-5 col-md-6 col-sm-12 order-lg-1  align-content-center">
+                    <div className="col-lg-6 col-md-6 col-sm-12 order-lg-1  align-content-center part1">
                         <h2 className='main-heading mb-4'>Dive into Delights Of Delectable <span className='green'>Food</span></h2>
 
                         <p className='main-para mb-5'>Where Each Plate Weaves a Story of Culinary Mastery and Passionate Craftsmanship</p>
@@ -24,8 +24,8 @@ const Home = () => {
                             <span class="bottom-key-2"></span>
                         </a>
 
-                       <span className='ms-5'> Watch Video <img src={playBtn} alt="playBtn" width={25} className='play' />
-                       </span>
+                        {/* <span className='ms-5'> Watch Video <img src={playBtn} alt="playBtn" width={25} className='play' />
+                       </span> */}
                     </div>
                 </div>
             </div>
