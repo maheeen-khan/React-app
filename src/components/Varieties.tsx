@@ -7,7 +7,7 @@ const Varieties = () => {
     return (
         <>
 
-            <div className="container mt-5 text-center">
+            <div className="container mt-5 mb-5 pb-5 text-center">
 
                 <div className="row">
 
@@ -15,7 +15,7 @@ const Varieties = () => {
                     <h2 className='main-heading mt-1 mb-5'>Standout Dishes From Our Menu</h2>
 
                     <div className="scrollmenu d-flex carousel slide">
-                        <div className="col-lg-3 col-md-3 col-sm-12">
+                        <div className="col-lg-3 col-md-3 col-sm-12 mb-5">
 
                             <div className="myCard text-center">
                                 <a className="card1" href="#">
@@ -37,7 +37,7 @@ const Varieties = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-sm-12">
+                        <div className="col-lg-3 col-md-3 col-sm-12 mb-5">
                             <div className="myCard text-center">
                                 <a className="card1" href="#">
                                     {/* <p>This is heading</p>
