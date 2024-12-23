@@ -509,7 +509,17 @@
 .fourth-cont{
     position: relative;
 } 
-  
+
+.abs{
+    position: relative;
+    right: 10%;
+}
+
+.abs2{
+    position: relative;
+    right: 20%;
+}
+
 /* order button end */
 @media screen and (max-width:426px) {
     .thrice-btn {
@@ -524,6 +534,10 @@
     .first-row {
         text-align: center !important;
     }
+    .reviews{
+        display: none !important; 
+        /* this is not working */
+    }
 
 }
 
@@ -531,5 +545,10 @@
     .thrice-btn {
         display: flex;
         justify-content: space-evenly;
+    }
+    .reviews{
+        display: none !important;
+        /* this is not working */
+
     }
 }
