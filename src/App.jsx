@@ -15,9 +15,9 @@ function App() {
       <Home />
       <PopularCategories />
       <Varieties />
-      {/* <Contact /> */}
       <ReviewSection/>
       <OurServices/>
+      <Contact />
     </>
   );
 }
