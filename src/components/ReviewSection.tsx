@@ -26,7 +26,7 @@ const ReviewSection = () => {
                         
                     </div>
                     <div className="col">
-                        <p style={{ color: 'red' }} className='mb-5'>TESTIMONIALS</p>
+                        <p style={{ color: 'red', fontSize: '13px', fontFamily: 'monospace' }} className='mb-5'>TESTIMONIALS</p>
                         <h2 className='main-heading mb-4'>What Our Customers Say About Us</h2>
                         <p style={{color:'grey'}}>“I had the pleasure of dining at Foodi last night, and I'm still raving about the experience! The attention to detail in presentation and service was impeccable”</p>
                         <div className='mt-5 d-flex reviews'>

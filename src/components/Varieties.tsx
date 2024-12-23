@@ -11,7 +11,7 @@ const Varieties = () => {
 
                 <div className="row">
 
-                    <p style={{ color: 'red' }} className='mt-3'>SPECIAL DISHES</p>
+                    <p style={{ color: 'red', fontSize: '13px', fontFamily: 'monospace' }} className='mt-3'>SPECIAL DISHES</p>
                     <h2 className='main-heading mt-1 mb-5'>Standout Dishes From Our Menu</h2>
 
                     <div className="scrollmenu d-flex carousel slide">

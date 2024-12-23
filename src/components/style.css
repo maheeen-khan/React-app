@@ -111,6 +111,11 @@
     opacity: 0.6;
 }
 
+.both-div .card:hover {
+    background-color: #f6f6f6;
+    cursor: pointer;
+}
+
 @keyframes shine {
     0% {
         left: -100px;
@@ -237,9 +242,10 @@
     font-size: 14px;
 }
 
-.myCard{
-    border-bottom-left-radius: 29px!important;
+.myCard {
+    border-bottom-left-radius: 29px !important;
 }
+
 .card1 .card-img-top {
     width: 120px;
 }
@@ -289,8 +295,8 @@
     text-decoration: none;
     z-index: 0;
     overflow: hidden;
-    border-bottom-left-radius: 87px!important;
-    
+    border-bottom-left-radius: 87px !important;
+
 }
 
 .card1:before {
@@ -317,7 +323,8 @@
     color: rgba(255, 255, 255, 0.8);
 }
 
-.card1:hover h3 , .card1:hover h5{
+.card1:hover h3,
+.card1:hover h5 {
     transition: all 0.3s ease-out;
     color: #fff;
 }
@@ -451,13 +458,14 @@
     height: fit-content;
 
     /**used to scroll text*/
-    white-space: nowrap;    
+    white-space: nowrap;
     overflow-x: scroll;
     overflow-y: hidden;
     /**keep scrolling when
       *finger or cursor scrolling*/
-    -webkit-overflow-scrolling: touch; 
+    -webkit-overflow-scrolling: touch;
 }
+
 .product-card {
     background-color: red;
     width: 100px;
@@ -465,11 +473,13 @@
     float: none;
     display: inline-block;
 }
+
 /*to hide the scrollbars*/
 ::-webkit-scrollbar {
     display: none;
 }
-.img-wrap{
+
+.img-wrap {
     background-color: rgb(186, 194, 33);
     width: 300px;
     height: 260px;
@@ -478,10 +488,11 @@
     justify-content: center;
     border-radius: 130px 130px 25px 25px;
 }
+
 .speech-bubble {
     width: 150px;
     height: 50px;
-    background-color:#73ba7a;
+    background-color: #73ba7a;
     position: relative;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -489,10 +500,11 @@
     color: white;
     position: absolute;
     right: 58%;
-    bottom:10% ;
+    bottom: 10%;
 
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  }
+}
+
 .speech-bubble:before {
     content: "";
     position: absolute;
@@ -505,19 +517,33 @@
     border-bottom: 13px solid transparent;
 
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  }
-.fourth-cont{
-    position: relative;
-} 
+}
 
-.abs{
+.fourth-cont {
+    position: relative;
+}
+
+.abs {
     position: relative;
     right: 10%;
 }
 
-.abs2{
+.abs2 {
     position: relative;
     right: 20%;
+}
+
+.card-img {
+    width: 50px !important;
+}
+
+.card-things {
+    color: rgb(186, 194, 33) !important;
+    font-size: 14px !important;
+}
+
+.fifth-card-title {
+    color: #5FE26C !important;
 }
 
 /* order button end */
@@ -534,8 +560,9 @@
     .first-row {
         text-align: center !important;
     }
-    .reviews{
-        display: none !important; 
+
+    .reviews {
+        display: none !important;
         /* this is not working */
     }
 
@@ -546,7 +573,8 @@
         display: flex;
         justify-content: space-evenly;
     }
-    .reviews{
+
+    .reviews {
         display: none !important;
         /* this is not working */
 

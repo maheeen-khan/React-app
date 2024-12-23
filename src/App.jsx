@@ -5,6 +5,7 @@ import PopularCategories from './components/PopularCategories';
 import Varieties from './components/Varieties.tsx';
 import Contact from './components/Contact.tsx';
 import ReviewSection from './components/ReviewSection.tsx';
+import OurServices from './components/OurServices.jsx';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <Varieties />
       {/* <Contact /> */}
       <ReviewSection/>
-      
+      <OurServices/>
     </>
   );
 }
