@@ -121,8 +121,8 @@
 /* From Uiverse.io by vinodjangid07 */ 
 .cont-card {
     position: relative;
-    width: 170px;
-    height: 170px;
+    width: 200px;
+    height: 200px;
     background: lightgrey;
     border-radius: 30px;
     overflow: hidden;
@@ -130,6 +130,7 @@
     transition: all 1s ease-in-out;
     border: 2px solid rgb(255, 255, 255);
     text-align: center !important;
+    border-radius: 200px;
   }
   
   .background {
@@ -712,9 +713,13 @@
 .contact-div li{ 
     color: rgb(85,85,85);
 }
-.container-fluid{
+.cont-flu{
     background-color: #e7e7e7;
     align-content: center;
+}
+.contact-div li:hover{
+    color:#32a83e;
+    cursor: pointer;
 }
 /* order button end */
 @media screen and (max-width:426px) {
