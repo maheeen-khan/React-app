@@ -710,7 +710,11 @@
 }
 
 .contact-div li{ 
-    color: rgb(85,85,85)
+    color: rgb(85,85,85);
+}
+.container-fluid{
+    background-color: #e7e7e7;
+    align-content: center;
 }
 /* order button end */
 @media screen and (max-width:426px) {

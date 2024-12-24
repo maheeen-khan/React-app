@@ -3,8 +3,9 @@ import React from 'react'
 const Contact = () => {
   return (
     <>
-      <div className="container contact-div mt-5 py-5 ">
-        <div className="row align-content-center">
+    <div className="container-fluid mt-5">
+      <div className="container contact-div mt-5">
+        <div className="row align-content-center py-5">
           <div className="col px-5">
             <h3 className='mb-4'>
               <a class="navbar-brand" href="#">
@@ -67,7 +68,12 @@ const Contact = () => {
 
           </div>
         </div>
-        <div className="row"></div>
+        <div className="row text-center mt-3">
+          <div className="col">
+            <p style={{color:'rgb(85,85,85)', fontSize:'14px'}}>Copyright 2023 Dscode | All rights reserved</p>
+          </div>
+        </div>
+      </div>
       </div>
     </>
   )
