@@ -3,35 +3,35 @@ import React from 'react'
 const Contact = () => {
   return (
     <>
-      <div className="container contact-div mt-5 p-5 ">
+      <div className="container contact-div mt-5 py-5 ">
         <div className="row align-content-center">
-          <div className="col">
-            <h3>
+          <div className="col px-5">
+            <h3 className='mb-4'>
               <a class="navbar-brand" href="#">
 
                 <span className='F px-2'>F</span>
                 OODI
               </a> </h3>
 
-            <p style={{color:'rgb(109, 109, 109)'}}>Savor the artistry where every dish is a culinary masterpiece</p>
+            <p style={{color:'rgb(85, 85, 85)'}}>Savor the artistry where every dish is a culinary masterpiece</p>
           </div>
           <div className="col">
          
             <ul>
-              <li style={{fontWeight:'bold', color:'black'}}>Useful links</li>
-              <li>About us</li>
-              <li>Events</li>
-              <li>Blogs</li>
-              <li>FAQ</li>
+              <li className='mb-3' style={{fontWeight:'bold', color:'black'}}>Useful links</li>
+              <li className='mb-3'>About us</li>
+              <li className='mb-3'>Events</li>
+              <li className='mb-3'>Blogs</li>
+              <li className='mb-3'>FAQ</li>
             </ul>
           </div>
           <div className="col">
             <ul>
-          <li style={{fontWeight:'bold', color:'black'}}>Main Menu</li>
-              <li>Home</li>
-              <li>Offers</li>
-              <li>Menus</li>
-              <li>Reservation</li>
+          <li className='mb-3' style={{fontWeight:'bold', color:'black'}}>Main Menu</li>
+              <li className='mb-3'>Home</li>
+              <li className='mb-3'>Offers</li>
+              <li className='mb-3'>Menus</li>
+              <li className='mb-3'>Reservation</li>
             </ul>
           </div>
           <div className="col">
