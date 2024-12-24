@@ -709,6 +709,9 @@
     color: #5FE26C !important;
 }
 
+.contact-div li{ 
+    color: rgb(109, 109, 109);
+}
 /* order button end */
 @media screen and (max-width:426px) {
     .thrice-btn {

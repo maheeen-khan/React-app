@@ -3,8 +3,8 @@ import React from 'react'
 const Contact = () => {
   return (
     <>
-      <div className="container contact-div">
-        <div className="row">
+      <div className="container contact-div mt-5 p-5 ">
+        <div className="row align-content-center">
           <div className="col">
             <h3>
               <a class="navbar-brand" href="#">
@@ -13,12 +13,12 @@ const Contact = () => {
                 OODI
               </a> </h3>
 
-            <p>Savor the artistry where every dish is a culinary masterpiece</p>
+            <p style={{color:'rgb(109, 109, 109)'}}>Savor the artistry where every dish is a culinary masterpiece</p>
           </div>
           <div className="col">
          
             <ul>
-              <li style={{fontWeight:'bold'}}>Useful links</li>
+              <li style={{fontWeight:'bold', color:'black'}}>Useful links</li>
               <li>About us</li>
               <li>Events</li>
               <li>Blogs</li>
@@ -27,7 +27,7 @@ const Contact = () => {
           </div>
           <div className="col">
             <ul>
-          <li style={{fontWeight:'bold'}}>Main Menu</li>
+          <li style={{fontWeight:'bold', color:'black'}}>Main Menu</li>
               <li>Home</li>
               <li>Offers</li>
               <li>Menus</li>
