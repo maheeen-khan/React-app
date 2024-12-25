@@ -21,7 +21,7 @@ const Navbar = () => {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li class="nav-item ms-4 act">
-                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" aria-current="page" href="./Home.jsx">Home</a>
                             </li>
                             <li class="nav-item ms-4">
                                 <a class="nav-link" aria-current="page" href="#">Menu</a>
