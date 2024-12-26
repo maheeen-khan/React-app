@@ -785,6 +785,16 @@
     transition: transform 0.3s ease-in-out 0.1s;
     transform: translate(0);
   }
+
+  .homeImg-wrapper{
+    background-color: rgb(186, 194, 33);
+    width: 330px;
+    height: 380px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+  }
   
 @media screen and (max-width:426px) {
     .thrice-btn {
