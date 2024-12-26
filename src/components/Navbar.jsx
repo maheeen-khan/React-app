@@ -34,15 +34,15 @@ const Navbar = () => {
                             </li>
 
                         </ul>
-<div className='thrice-btn'>
-                        <button className='btn'><img src={searchImg} alt="search" width={20}/></button>
+                        <div className='thrice-btn'>
+                            <button className='btn'><img src={searchImg} alt="search" width={20} /></button>
 
-                        <button className='btn me-2'><img src={cart} alt="cart" width={33} /></button>
-                        
-                        <button type="button" class="btn btn-success regBtn px-3">
-                            <img src={contactLogo} alt="contact Logo" className='w-25' />
-                            <span className='ms-2 contact'>Contact</span></button>
-                            </div>
+                            <button className='btn me-2'><img src={cart} alt="cart" width={33} /></button>
+
+                            <button type="button" class="btn regBtn px-3">
+                                <img src={contactLogo} alt="contact Logo" className='w-25' />
+                                <span className='ms-2 contact'>Contact</span></button>
+                        </div>
                     </div>
                 </div>
             </nav>

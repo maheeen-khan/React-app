@@ -6,8 +6,12 @@
     background-color: rgb(186, 194, 33) !important;
     border-radius: 24px !important;
     border: none !important;
-}
+    color: white !important;
 
+}
+.regBtn span:hover{
+    color: white !important;
+}
 .nav-item :hover,
 .thrice-btn :hover {
     color: rgb(186, 194, 33) !important;
@@ -641,6 +645,8 @@
 /*to hide the scrollbars*/
 ::-webkit-scrollbar {
     display: none;
+    /* scrollbar-color: red; */
+    
 }
 
 .img-wrap {
