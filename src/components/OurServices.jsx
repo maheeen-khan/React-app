@@ -12,7 +12,7 @@ const OurServices = () => {
             <div className="container py-5">
 
                 <div className="row mt-3 mb-3">
-                    <div className="col col-lg-5 col-md-6 col-sm-12 align-content-center mb-5">
+                    <div className="col col-lg-5 col-md-12 col-sm-12 align-content-center mb-5">
                         <p style={{ color: 'red', fontSize: '13px', fontFamily: 'monospace' }}>OUR STORY AND SERVICES</p>
                         <h2 className='main-heading my-3'>Our Culinary Journey And Services</h2>
                         <p style={{ color: '#555555' }}>Rooted in passion, we curate unforgettable dining experiences and offer exceptional services, blending culinary artistry with warm hospitality.</p>
@@ -53,7 +53,7 @@ const OurServices = () => {
 
                         {/* button end */}
                     </div>
-                    <div className="col col-lg-7 col-md-6 col-sm-12" data-aos="fade-down" data-aos-easing="ease-in">
+                    <div className="col col-lg-7 col-md-12 col-sm-12" data-aos="fade-down" data-aos-easing="ease-in">
                         <div className="both-div d-flex flex-wrap">
 
                             <FifthSectionCard name={'Catering'} para={'Delight your guests with our flavors and  presentation'} img={catering} />

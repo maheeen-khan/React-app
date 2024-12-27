@@ -849,6 +849,17 @@
     .popup{
         display: none;
     }
+    .speech-bubble{
+        right: 20% ;
+        top: 42%;
+    }
+    .test{
+        margin-top: 50px !important;
+    }
+    .cust-feed{
+        margin-top: 18px !important;
+    }
+    
 
 }
 
@@ -866,4 +877,10 @@
     .popup{
         display: none;
     }
+    .speech-bubble{
+        position: absolute;
+        left: 65%;
+        bottom: 50%;
+    }
+    
 }
