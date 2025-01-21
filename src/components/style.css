@@ -1,4 +1,4 @@
-.girl{
+.girl {
     width: 450px;
 }
 
@@ -669,7 +669,7 @@
 .speech-bubble {
     width: 150px;
     height: 50px;
-    background-color:#39DB4A;
+    background-color: #39DB4A;
     position: relative;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -827,7 +827,8 @@
 .noodles {
     border-radius: 10px;
 }
-.popup:hover{
+
+.popup:hover {
     background-color: rgb(244, 244, 244);
     cursor: pointer;
 }
@@ -850,28 +851,46 @@
         display: none !important;
         /* this is not working */
     }
-    .popup{
+
+    .popup {
         display: none;
     }
 
-    .girl{
+    .girl {
         width: 350px;
     }
-    .homeImg-wrapper{
+
+    .homeImg-wrapper {
         width: 230px;
         height: 280px;
     }
-    .speech-bubble{
-        right: 20% ;
+
+    .speech-bubble {
+        right: 20%;
         top: 42%;
     }
-    .test{
+
+    .test {
         margin-top: 50px !important;
     }
-    .cust-feed{
+
+    .cust-feed {
         margin-top: 18px !important;
     }
 
+    .speech-bubble:before {
+        border: none;
+
+    }
+    .colLink{
+        width: 50% !important;
+    }
+    .colMenu{
+        width: 50% !important;
+    }
+    .bottomLogo{
+        text-align: center;
+    }
 
 }
 
@@ -886,13 +905,15 @@
         /* this is not working */
 
     }
-    .popup{
+
+    .popup {
         display: none;
     }
-    .speech-bubble{
+
+    .speech-bubble {
         position: absolute;
         left: 65%;
         bottom: 50%;
     }
-    
+
 }

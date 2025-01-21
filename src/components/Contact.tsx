@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="container-fluid mt-5 cont-flu">
       <div className="container contact-div mt-5">
         <div className="row align-content-center py-5">
-          <div className="col-lg-3 col-md-3 col-sm-12 px-5">
+          <div className="col-lg-3 col-md-3 col-sm-12 px-4 px-lg-5 mb-4 bottomLogo">
             <h3 className='mb-4'>
               <a className="navbar-brand" href="#">
 
@@ -16,7 +16,7 @@ const Contact = () => {
 
             <p style={{color:'rgb(85, 85, 85)'}}>Savor the artistry where every dish is a culinary masterpiece</p>
           </div>
-          <div className="col-lg-3 col-md-3 col-sm-12">
+          <div className="col-lg-3 col-md-3 col-sm-12 colLink">
          
             <ul>
               <li className='mb-3' style={{fontWeight:'bold', color:'black'}}>Useful links</li>
@@ -26,7 +26,7 @@ const Contact = () => {
               <li className='mb-3'>FAQ</li>
             </ul>
           </div>
-          <div className="col-lg-3 col-md-3 col-sm-12">
+          <div className="col-lg-3 col-md-3 col-sm-12 colMenu">
             <ul>
           <li className='mb-3' style={{fontWeight:'bold', color:'black'}}>Main Menu</li>
               <li className='mb-3'>Home</li>
@@ -43,7 +43,7 @@ const Contact = () => {
               <li>Social media</li>
             </ul> */}
 
-            <div className="cont-card">
+            <div className="cont-card mx-auto">
               <div className="background">
               </div>
               <div className="logo">

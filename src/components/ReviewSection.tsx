@@ -12,7 +12,7 @@ const ReviewSection = () => {
             <div className="container my-5 fourth-cont">
                 <div className="row pt-5">
                     <div className="col-lg-6 col-md-12 col-sm-12 mt-5">
-                        <div className="img-wrap">
+                        <div className="img-wrap mb-4">
                             <img src={fourthImg} alt="" width={300} />
 
                         </div>
@@ -31,8 +31,8 @@ const ReviewSection = () => {
                             <h2 className='main-heading mb-4'>What Our Customers Say About Us</h2>
                             <p style={{ color: 'grey' }}>“I had the pleasure of dining at Foodi last night, and I'm still raving about the experience! The attention to detail in presentation and service was impeccable”</p>
                         </div>
-                        <div className='mt-5 d-flex flex-wrap reviews'>
-                            <div className='pe-5'>
+                        <div className='mt-5 d-flex flex-wrap reviews justify-content-center'>
+                            <div className=''>
                                 <img src={client3} alt="" width={50} />
                                 <img src={client2} alt="" width={50} className='abs' />
                                 <img src={client1} alt="" width={50} className='abs2' />
