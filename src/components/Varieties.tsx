@@ -17,35 +17,35 @@ const Varieties = () => {
                     <h2 className='main-heading mt-1 mb-5'>Standout Dishes From Our Menu</h2>
 
                     <div className="scrollmenu d-flex carousel slide">
-                        <div className="col-lg-3 col-md-3 col-sm-12 mb-5">
+                        <div className="col-lg-3 col-md-6 col-sm-12 mb-5">
 
                             <ThirdSecCard img={third1} name={'Fattoush salad'} price={'24.00'} />
 
                         </div>
-                        <div className="col-lg-3 col-md-3 col-sm-12 mb-5">
+                        <div className="col-lg-3 col-md-6 col-sm-12 mb-5">
 
                             <ThirdSecCard img={third2} name={'Vegetable salad'} price={'26.00'} />
 
                         </div>
-                        <div className="col-lg-3 col-md-3 col-sm-12">
+                        <div className="col-lg-3 col-md-6 col-sm-12">
 
                             <ThirdSecCard img={third3} name={'Egg vegi salad'} price={'23.00'} />
 
                         </div>
-                        <div className="col-lg-3 col-md-3 col-sm-12">
+                        <div className="col-lg-3 col-md-6 col-sm-12">
 
                             <ThirdSecCard img={third1} name={'Fattoush salad'} price={'24.00'} />
 
                         </div>
 
-                        <div className="col-lg-3 col-md-3 col-sm-12">
+                        <div className="col-lg-3 col-md-6 col-sm-12">
 
                             <ThirdSecCard img={third2} name={'Vegetable salad'} price={'26.00'} />
 
                         </div>
 
 
-                        <div className="col-lg-3 col-md-3 col-sm-12">
+                        <div className="col-lg-3 col-md-6 col-sm-12">
 
                             <ThirdSecCard img={third3} name={'Egg vegi salad'} price={'23.00'} />
 
