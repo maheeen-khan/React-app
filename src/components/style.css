@@ -1,3 +1,7 @@
+.girl{
+    width: 450px;
+}
+
 .logo {
     width: 20px;
 }
@@ -848,6 +852,13 @@
     }
     .popup{
         display: none;
+    }
+    .girl{
+        width: 350px;
+    }
+    .homeImg-wrapper{
+        width: 230px;
+        height: 280px;
     }
 
 }

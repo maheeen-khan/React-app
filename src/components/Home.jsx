@@ -11,8 +11,8 @@ const Home = () => {
             <div className="container">
                 <div className="row mt-5 first-row">
                     <div className="col-lg-4 col-md-6 col-sm-12  order-lg-2 girl mx-auto">
-                        <div className="homeImg-wrapper mt-5">
-                            <img src={girl} alt="girl" width={450} />
+                        <div className="homeImg-wrapper mt-5 mx-auto">
+                            <img src={girl} alt="girl"className='girl' />
                         </div>
 
                         <div className="popup p-2">
