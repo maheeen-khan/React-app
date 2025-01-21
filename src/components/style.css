@@ -853,7 +853,7 @@
     .popup{
         display: none;
     }
-<<<<<<< HEAD
+
     .girl{
         width: 350px;
     }
@@ -861,7 +861,6 @@
         width: 230px;
         height: 280px;
     }
-=======
     .speech-bubble{
         right: 20% ;
         top: 42%;
@@ -872,8 +871,7 @@
     .cust-feed{
         margin-top: 18px !important;
     }
-    
->>>>>>> b1b06652209b066a8af4b1203fe94273217fd5bb
+
 
 }
 
