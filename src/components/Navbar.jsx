@@ -7,7 +7,8 @@ import './style.css'
 const Navbar = () => {
     return (
         <div>
-            <nav class="navbar navbar-expand-lg">
+            
+            <nav class="container navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <h3>
                         <a class="navbar-brand" href="#">

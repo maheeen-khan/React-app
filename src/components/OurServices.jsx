@@ -53,8 +53,8 @@ const OurServices = () => {
 
                         {/* button end */}
                     </div>
-                    <div className="col col-lg-7 col-md-12 col-sm-12" data-aos="fade-down" data-aos-easing="ease-in">
-                        <div className="both-div d-flex flex-wrap">
+                    <div className="col-lg-7 col-md-12 col-sm-12 tobeFlex" data-aos="fade-down" data-aos-easing="ease-in">
+                        <div className="both-div d-flex flex-wrap g-1">
 
                             <FifthSectionCard name={'Catering'} para={'Delight your guests with our flavors and  presentation'} img={catering} />
 

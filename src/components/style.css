@@ -818,7 +818,9 @@ html, body {
     justify-content: space-between !important;
     align-items: center;
 }
-
+.girl{
+    position: relative;
+}
 .popup {
     background-color: white;
     width: 200px;
@@ -826,8 +828,8 @@ html, body {
     border-radius: 9px;
 
     position: absolute;
-    top: 78%;
-    right: 30%;
+    top: 83%;
+    right: 50%;
     z-index: 20;
 }
 
@@ -898,6 +900,11 @@ html, body {
     .bottomLogo{
         text-align: center;
     }
+    .img-wrap{
+        margin-right: auto;
+        margin-left: auto;
+    }
+   
 
 }
 
@@ -923,4 +930,9 @@ html, body {
         bottom: 50%;
     }
 
+}
+@media screen and (min-width:769px){
+    .tobeFlex{
+        display: flex;
+    }
 }
